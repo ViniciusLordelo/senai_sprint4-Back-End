@@ -32,8 +32,8 @@ export default class tipoRepositorios extends Component {
               type='text'
               value={this.state.nome}
               onChange={r => this.setState({nome: r.target.value})}
-            />
-            <button type='submit'>Pesquisar</button>
+            /><button type='submit'>Pesquisar</button>
+            
           </form>
         </section>
 
